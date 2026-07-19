@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/your-username/imagepdf/main/public/icon.svg" alt="ImagePDF.tools Logo" width="96" height="96" />
+  <img src="https://raw.githubusercontent.com/gowthamavtech/imagepdf.tools/main/logo.svg" alt="ImagePDF.tools Logo" width="96" height="96" />
 </p>
 
 <h1 align="center">ImagePDF.tools</h1>
