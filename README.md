@@ -5,7 +5,7 @@
 <h1 align="center">ImagePDF.tools</h1>
 
 <p align="center">
-  <strong>Free browser-native document utilities. Private, offline-first, WebAssembly-powered.</strong>
+  <strong>Your files never leave your device.</strong>
 </p>
 
 <p align="center">
@@ -28,6 +28,8 @@
 > **Zero File Transmission**: ImagePDF.tools executes all document operations in-memory on your local CPU. Your file data is never sent to our servers, logged, or cached. You retain 100% custody of your documents at all times.
 
 ## The Manifesto: Why We Built ImagePDF.tools
+
+**Your files. Your device. Your rules.**
 
 The modern web is built on a centralization model: you upload your personal data to remote servers, wait for virtual machines to process it, and pull the output back down. This architecture made sense in the early days of the web when web browsers were simple document viewers with limited computational power. Heavy operations, like rendering PDFs or optimizing raster images, had to run on high-performance server farms.
 
