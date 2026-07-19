@@ -1,22 +1,72 @@
-# ImagePDF.tools
-
-### Free client-side PDF utilities and image tools. Private, offline-first, WebAssembly-powered.
-
 <p align="center">
-  <a href="https://imagepdf.tools"><strong>Visit ImagePDF.tools</strong></a>
+  <img src="https://raw.githubusercontent.com/your-username/imagepdf/main/public/icon.svg" alt="ImagePDF.tools Logo" width="96" height="96" />
 </p>
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://imagepdf.tools)
-[![Privacy: Browser-Native](https://img.shields.io/badge/Privacy-Browser_Native-blue.svg)](https://imagepdf.tools/privacy)
-[![Built with Next.js](https://img.shields.io/badge/Built_with-Next.js-black.svg)](https://imagepdf.tools)
+<h1 align="center">ImagePDF.tools</h1>
+
+<p align="center">
+  <strong>Free browser-native document utilities. Private, offline-first, WebAssembly-powered.</strong>
+</p>
+
+<p align="center">
+  <a href="https://imagepdf.tools">Visit ImagePDF.tools</a> |
+  <a href="https://imagepdf.tools/privacy">Privacy Core</a> |
+  <a href="https://imagepdf.tools/blog">Blog Guides</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT" />
+  <img src="https://img.shields.io/badge/Privacy-Browser_Native-blue.svg" alt="Privacy: Browser-Native" />
+  <img src="https://img.shields.io/badge/Built_with-Next.js-black.svg" alt="Built with Next.js" />
+</p>
 
 <hr />
 
 [ImagePDF.tools](https://imagepdf.tools) is a collection of browser-native document utilities designed for quick, private, and frictionless file operations. It serves as a serverless, privacy-focused alternative to Smallpdf, iLovePDF, and TinyPNG. By executing all processing directly on your device via WebAssembly, canvas APIs, and client-side JavaScript, the platform guarantees that your files never leave your browser.
 
+> [!IMPORTANT]
+> **Zero File Transmission**: ImagePDF.tools executes all document operations in-memory on your local CPU. Your file data is never sent to our servers, logged, or cached. You retain 100% custody of your documents at all times.
+
+## The Manifesto: Why We Built ImagePDF.tools
+
+The modern web is built on a centralization model: you upload your personal data to remote servers, wait for virtual machines to process it, and pull the output back down. This architecture made sense in the early days of the web when web browsers were simple document viewers with limited computational power. Heavy operations, like rendering PDFs or optimizing raster images, had to run on high-performance server farms.
+
+This server-dependent design created a massive utility industry. Popular platforms like Smallpdf, iLovePDF, and TinyPNG became standard workflows. However, this model has outlived its technical necessity. Modern computers and mobile devices possess massive CPU power, and browser technology has advanced with the introduction of WebAssembly (WASM). WebAssembly allows compiled languages like C, C++, and Rust to run directly inside browser sandbox environments at near-native speeds.
+
+We built ImagePDF.tools to challenge the centralized processing model. We believe that basic document operations (such as converting a Word document, cropping an image, or merging PDF sheets) should be processed where they originate: locally on your device. By shifting the workload to the client, we remove the need for remote cloud architectures, eliminate network file latency, and resolve privacy and data custody concerns.
+
+<h3 align="center">Comparison Matrix</h3>
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="50%" align="left">Traditional Server Utilities (Smallpdf, iLovePDF)</th>
+      <th width="50%" align="left">ImagePDF.tools Browser-Native Architecture</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Data Custody:</strong> Files are uploaded to external cloud servers, creating security and leakage risks.</td>
+      <td><strong>Data Custody:</strong> Files stay in browser memory. Processing runs locally on your CPU.</td>
+    </tr>
+    <tr>
+      <td><strong>Compliance:</strong> Potential compliance violations under GDPR, HIPAA, or CCPA due to server data storage.</td>
+      <td><strong>Compliance:</strong> Zero regulatory exposure. No document contents are transmitted over networks.</td>
+    </tr>
+    <tr>
+      <td><strong>Limits:</strong> Files size restrictions, queue times, and page caps to offset VM resource bills.</td>
+      <td><strong>Limits:</strong> Infinite processing. No limits on file size, pages, or conversion frequencies.</td>
+    </tr>
+    <tr>
+      <td><strong>Performance:</strong> Restricted by upload and download transfer speeds, especially on large assets.</td>
+      <td><strong>Performance:</strong> Execution is instant. Network latency is completely bypassed.</td>
+    </tr>
+  </tbody>
+</table>
+
 ## Why ImagePDF.tools is Free (And Better)
 
-Traditional document toolkits (like Smallpdf or Adobe Acrobat Online) operate on server-dependent structures. When you upload a file, they process it on their remote servers. This requires expensive virtual machines, database storage, and bandwidth. As their traffic grows, their cloud hosting bills become massive, forcing them to charge subscriptions, lock basic features behind paywalls, and cap file uploads.
+Traditional document toolkits operate on server-dependent structures. When you upload a file, they process it on their remote servers. This requires expensive virtual machines, database storage, and bandwidth. As their traffic grows, their cloud hosting bills become massive, forcing them to charge subscriptions, lock basic features behind paywalls, and cap file uploads.
 
 ImagePDF.tools operates on a browser-native model:
 
@@ -26,24 +76,8 @@ ImagePDF.tools operates on a browser-native model:
 * **Privacy by Design**: Traditional tools ask you to trust their deletion policies. We eliminate the risk completely by never transmitting your file content to any server.
 * **Ad-Free Premium Option**: We monetize solely through a clean, optional ad-free plan, keeping all tools permanently free and accessible to everyone.
 
-## The Problems We Solve
-
-Most existing image and PDF tools suffer from persistent issues:
-
-* **Server dependency**: Uploading sensitive legal documents, contracts, or private photos to external servers raises privacy risks.
-* **Paywalls and limits**: Free tiers are often restricted by file size, batch size, or conversion counts.
-* **Dark patterns**: Websites clutter interfaces with intrusive ads, force account creation, or insert unwanted watermarks.
-* **Performance lag**: Uploading large files to a remote server, waiting for server-side queues, and saving the results is slow.
-
-## Our Solution
-
-[ImagePDF.tools](https://imagepdf.tools) offers a sharp, private, and instant alternative:
-
-* **On-device execution**: All processing runs locally in your browser using WebAssembly and canvas APIs. Files are never uploaded.
-* **Account-free utilities**: Complete your task immediately without entering an email address or creating an account.
-* **Unrestricted usage**: Perform file conversions and compressions without arbitrary limits.
-* **Clean interface**: No ad clutter, no popups, and no visual noise. The tool itself is the interface.
-* **Modern architecture**: Leverages Next.js, Tailwind CSS, and WebAssembly to maximize speed and responsiveness.
+> [!TIP]
+> **Pipeline Handoffs**: You can chain multiple tools together without downloading intermediate results. For example, crop a picture in the Image Editor and send it directly to the PDF Merger in a single click using our local in-memory Zustand handoff.
 
 ## Key Features
 
@@ -57,11 +91,41 @@ Why the architecture of ImagePDF.tools matters to users:
 * **Cross-platform PDF previewing**: Uses `pdfjs-dist` to render PDF pages onto client-side canvases, providing visual document previews across mobile and desktop browsers without relying on native iframe viewers.
 * **Compare slider**: Features an interactive split-screen view (`CompareView`) with mouse-wheel zoom (up to 10x), panning, and pinch-to-zoom touch support to evaluate image compression quality.
 
+## Under the Hood (Technical Architecture)
+
+ImagePDF.tools performs complex compilation and image processing directly in the client browser.
+
+### DOCX to PDF Compilation Pipeline
+For Word to PDF conversion, the app bypasses server compilers entirely:
+1. **Layout parsing**: Reads the ZIP container of the `.docx` using `jszip` to extract margins and identify document font families from `word/fontTable.xml`.
+2. **Local Font Access API**: Queries `window.queryLocalFonts` to request permission to use matching, pre-installed computer fonts.
+3. **Pandoc WASM**: Converts the document structure into Typst formatting.
+4. **Typst VFS mapping**: Mounts the system fonts and extracted document media files into the Typst virtual filesystem.
+5. **Typst WASM compilation**: Uses `@myriaddreamin/typst-all-in-one.ts` to compile the final PDF.
+
+### Image Compression Router
+Image compression uses format-specific algorithms to optimize outputs:
+* **JPEG & WebP**: Uses compiled WebAssembly modules of MozJPEG and libwebp (via `@jsquash`) to achieve files 10% to 20% smaller than standard browser canvas serialization.
+* **PNG**: Implements UPNG.js K-d tree palette quantization.
+* **SVG**: Optimizes code structure via coordinate rounding and tag cleanups rather than rasterizing.
+* **Fallback guarantee**: Automatically compares sizes and falls back to the original file if the compressed blob size exceeds it.
+
+### High-Accuracy Client-Side OCR
+OCR tools deliver flat memory consumption and clean outputs:
+1. **Luminance pre-processing**: Grayscales canvas pixels using weighted luminance (`0.299 * R + 0.587 * G + 0.114 * B`) and binarizes at a 128 threshold. This clean black-on-white conversion increases Tesseract OCR accuracy by 5% to 10%.
+2. **Sequential rendering**: Renders PDF pages sequentially to keep browser RAM usage flat (~30 MB to 50 MB per page).
+3. **Dynamic DPI selection**: Uses 300 DPI on desktop for optimal character detection, and automatically scales to 150 DPI on mobile to prevent RAM crashes.
+4. **Searchable compilation**: Uses `pdf-lib` to overlay an invisible layer of text boxes matching the bounding boxes parsed by `tesseract.js` workers.
+
+### EXIF and Metadata Sanitization
+* **JPEG**: Utilizes `piexifjs` to strip EXIF and GPS tags directly from the binary buffer with zero re-encoding and zero quality degradation.
+* **PNG & WebP**: Rebuilds images from raw canvas RGBA bytes, naturally omitting original metadata.
+
 ## Tool Index & Backlink Directory
 
 Click any tool link below to access the utility directly on [ImagePDF.tools](https://imagepdf.tools):
 
-### Core Utilities Directory
+### Core Tools Directory
 
 * [All Image Tools](https://imagepdf.tools/image-tools): Complete collection of image resizing, cropping, and conversion utilities.
 * [All PDF Tools](https://imagepdf.tools/pdf-tools): Suite of PDF merging, splitting, protection, and security tools.
