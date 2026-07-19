@@ -188,62 +188,6 @@ Click any tool link below to access the utility directly on [ImagePDF.tools](htt
 * [Metadata Editor](https://imagepdf.tools/metadata-editor): Edit EXIF and GPS headers of JPEG photographs.
 * [Remove Metadata](https://imagepdf.tools/remove-metadata): Strip EXIF headers from files with zero quality degradation.
 
-### Informational & Support Pages
-
-Explore our directory guides and policy references:
-
-* [About Us](https://imagepdf.tools/about): Learn about our mission and client-side processing architecture.
-* [Pricing Plans](https://imagepdf.tools/pricing): Compare our permanently free core features with the ad-free Pro subscription.
-* [Support & FAQ](https://imagepdf.tools/support): Browse quick troubleshooting tips and reach out for assistance.
-* [Contact Us](https://imagepdf.tools/contact): Get in touch with our open-source project maintainers.
-* [Blog Index](https://imagepdf.tools/blog): Read guides on document privacy, compression quality, and WebAssembly compilation.
-* [Privacy Core](https://imagepdf.tools/privacy): Overview of our browser-native private design.
-* [Privacy Policy](https://imagepdf.tools/privacy-policy): Detailed breakdown of user authentication and billing storage.
-* [Terms of Service](https://imagepdf.tools/terms): Review our licensing terms and guidelines.
-* [Refund Policy](https://imagepdf.tools/refund): Check our subscription cancellation guidelines.
-* [What's New](https://imagepdf.tools/whats-new): Discover recent tool updates, performance improvements, and bug fixes.
-
-### Blog Directory (Knowledge Hub)
-
-Read our tutorials and architectural insights directly on the website:
-
-* [How to Check If an Online File Converter Is Safe](https://imagepdf.tools/blog/online-file-converters-security-risk)
-* [How to Safely Compress Sensitive PDF Documents](https://imagepdf.tools/blog/safely-compress-sensitive-pdf-documents)
-* [What is Image Metadata? EXIF and GPS Explained](https://imagepdf.tools/blog/what-is-image-metadata-exif-explained)
-* [iLovePDF vs Smallpdf vs ImagePDF.tools Comparison](https://imagepdf.tools/blog/ilovepdf-vs-smallpdf-vs-imagepdf-tools-comparison)
-* [Is iLoveIMG Safe? What Happens to Your Photos?](https://imagepdf.tools/blog/is-iloveimg-safe-what-happens-to-your-photos)
-* [How to Password Protect a PDF Without Uploading](https://imagepdf.tools/blog/password-protect-pdf-without-uploading)
-* [Best TinyPNG Alternative with No Upload Limits](https://imagepdf.tools/blog/best-tinypng-alternative-no-upload)
-* [WebP vs AVIF Image Format for SEO in 2026](https://imagepdf.tools/blog/webp-vs-avif-image-format-seo-2026)
-* [Core Web Vitals and Image Optimization Guide](https://imagepdf.tools/blog/core-web-vitals-image-optimization)
-* [Ultimate Guide to PDF Compression Levels](https://imagepdf.tools/blog/ultimate-guide-pdf-compression-levels)
-* [Convert JPG to PDF Without Losing Quality](https://imagepdf.tools/blog/convert-jpg-to-pdf-without-losing-quality)
-* [How to Shrink a PDF for Email Attachments](https://imagepdf.tools/blog/shrink-pdf-for-email-attachments)
-* [How to Batch Resize Images for Social Media](https://imagepdf.tools/blog/batch-resize-images-social-media)
-* [PNG to WebP: Why Website Owners Should Switch](https://imagepdf.tools/blog/png-to-webp-why-website-owners-should-switch)
-* [Building a Private Image Compressor with WebAssembly](https://imagepdf.tools/blog/building-private-image-compressor-webassembly)
-* [How Client-Side Processing Saves Your Private Data](https://imagepdf.tools/blog/client-side-processing-saves-your-data)
-* [Choosing the Right Image Format: Compression Guide](https://imagepdf.tools/blog/choosing-right-image-format-compression-guide)
-* [How to Compress an Image to an Exact File Size](https://imagepdf.tools/blog/compress-image-to-exact-file-size)
-* [Compression Artifacts: A Field Guide](https://imagepdf.tools/blog/compression-artifacts-field-guide)
-* [How Modern Browsers Handle and Render Images](https://imagepdf.tools/blog/how-browsers-handle-images)
-* [Image Compression for Absolute Beginners](https://imagepdf.tools/blog/image-compression-for-beginners)
-* [Image Compression for Photographers](https://imagepdf.tools/blog/image-compression-for-photographers)
-* [Image Optimization for E-Commerce Platforms](https://imagepdf.tools/blog/image-optimization-ecommerce)
-* [The JPEG Quality Slider Explained](https://imagepdf.tools/blog/jpeg-quality-slider-explained)
-* [Lazy Loading Images and the LCP Pitfall](https://imagepdf.tools/blog/lazy-loading-images-lcp-pitfall)
-* [Lossy vs Lossless Image Compression](https://imagepdf.tools/blog/lossy-vs-lossless-compression)
-* [Why You Can Trust Online Image Compression Tools](https://imagepdf.tools/blog/trust-online-image-compression-tools)
-* [Progressive JPEGs: Optimization Guide](https://imagepdf.tools/blog/progressive-jpegs-optimization)
-* [The Comprehensive Responsive Images Guide](https://imagepdf.tools/blog/responsive-images-guide)
-* [Shopify Image Optimization Guide](https://imagepdf.tools/blog/shopify-image-optimization)
-* [Why Images Are the Slowest Thing on Your Website](https://imagepdf.tools/blog/images-slowest-thing-on-your-website)
-* [How to Crop Images Online Instantly](https://imagepdf.tools/blog/how-to-crop-images-online)
-* [How to Batch Resize Images](https://imagepdf.tools/blog/how-to-batch-resize-images)
-* [How to Watermark a PDF Online](https://imagepdf.tools/blog/how-to-watermark-a-pdf)
-* [How to Convert HEIC to JPG](https://imagepdf.tools/blog/how-to-convert-heic-to-jpg)
-* [5 Ways to Speed Up Your Image Workflow](https://imagepdf.tools/blog/5-ways-to-speed-up-image-workflow)
-
 ## Privacy Architecture
 
 Privacy is not a feature promise: it is the structural architecture of [ImagePDF.tools](https://imagepdf.tools).
